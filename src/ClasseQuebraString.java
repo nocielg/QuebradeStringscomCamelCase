@@ -36,7 +36,7 @@ public class ClasseQuebraString {
 		String stringTransformada[] = string.split("[A-Z]");  //("(?=\\p{Lu})") "[A-Z]"
  		return Arrays.deepToString(stringTransformada);   
 		
-	}//
+	}
 		
 	/*
 	public String quebrarStringTranformarEmArrayDeCaracter(String string){
