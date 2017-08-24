@@ -50,7 +50,7 @@ public class TesteQuebraStringCamelCase {
 	
 	
 	@Test 
-	public void tastaMetodoEduardo(){
+	public void testaMetodo(){
 		String teste = classequebraString.separaPorMaiusculas("PedroAlves");
 		assertEquals("[, pedro, alves]",teste);
 	}
