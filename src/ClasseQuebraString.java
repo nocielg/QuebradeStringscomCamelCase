@@ -43,8 +43,8 @@ public class ClasseQuebraString {
 		String testandoStringTransformadaEmArraydeCaracter = classequebraString.converterCamelCase("Nome");
 		return stringTransformadaEmCaracter = null;
 	}*/	
-	
-	//método Eduardo Guerra
+	//
+	//método 
 		public String separaPorMaiusculas(String nome){
 			List<String> lista = new ArrayList<>();
 			String corrente = "";
