@@ -15,7 +15,7 @@ public class TesteQuebraStringCamelCase {
 	private String string;
 
 	@Before
-	public void teste() {
+	public void testeInstanciaClasse() {
 		classequebraString = new ClasseQuebraString();
 	}
 	/*
@@ -42,7 +42,7 @@ public class TesteQuebraStringCamelCase {
 	
 	
 	@Test
-	public void testandoStringComEspacos(){
+	public void testeRemoveLetrasMaiusculas(){
 		String stringSemEspaco = classequebraString.removeLetraMaiuscula("PedroAlves");   
 		assertEquals("[, edro, lves]",stringSemEspaco);
 	}
